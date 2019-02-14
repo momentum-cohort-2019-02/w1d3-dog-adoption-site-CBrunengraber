@@ -30,7 +30,7 @@ h2 {
     background: #f0edee;
     width: 100%;
   }
-#container {
+.container {
     display: flex; /* or inline-flex */
     flex-direction: row;
     justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
@@ -43,11 +43,10 @@ h2 {
       width: 12%;
       border: none;
   }
-#doggies {
+.doggies {
     display: flex; /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
 }
 
  .people {
@@ -61,6 +60,7 @@ h2 {
 
 img {
     width: 200px;
+    height: 165px;
     display: flex; /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap;
