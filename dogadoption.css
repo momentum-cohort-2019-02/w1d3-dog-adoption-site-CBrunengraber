@@ -7,6 +7,7 @@
 body {
     border: 1rem;
     padding: 1.5rem;
+    margin: 0 auto;
 }
 
 .happy {
@@ -22,13 +23,20 @@ h2 {
 }
 .exempt {
     align-self: stretch;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    border: .5rem;
+    padding: 1rem;
+    background: #f0edee;
+    width: 100%;
   }
 #container {
     display: flex; /* or inline-flex */
     flex-direction: row;
     border: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background: #f0edee;
+    width: 100%;
   }
   .menu {
       width: 25%;
