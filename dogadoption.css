@@ -33,24 +33,30 @@ h2 {
 #container {
     display: flex; /* or inline-flex */
     flex-direction: row;
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
     border: 1rem;
     padding: 1rem;
     background: #f0edee;
     width: 100%;
   }
   .menu {
-      width: 25%;
+      width: 12%;
       border: none;
   }
 #doggies {
     display: flex; /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
 }
 
- .footer {
+ .people {
     -webkit-filter: opacity(.5);
     filter: opacity(.5);
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
     }
 
 img {
@@ -58,5 +64,5 @@ img {
     display: flex; /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
 }
-
