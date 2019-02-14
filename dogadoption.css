@@ -60,6 +60,7 @@ h2 {
     /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 
