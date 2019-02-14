@@ -4,8 +4,46 @@
     padding: 0;
 }
 
+body {
+    border: 1rem;
+    padding: 1.5rem;
+}
+
 .happy {
     color: white;
-    background-color: blue;
-    border: 1rem
+    background-color: #0d3e75;
+    border: 1rem;
+    padding: 1.5rem;
+}
+
+h2 {
+    border: 1rem;
+    padding: 1.5rem; 
+}
+.exempt {
+    align-self: stretch;
+  }
+#container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    border: 1rem;
+    padding: 1.5rem;
+    background: #f0edee;
+  }
+  .menu {
+      width: 25%;
+      border: none;
+  }
+#doggies {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+}
+img {
+    width: 200px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
