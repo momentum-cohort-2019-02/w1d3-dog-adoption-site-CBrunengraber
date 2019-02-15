@@ -62,14 +62,6 @@ h2 {
     flex-wrap: wrap;
     list-style: none;
 }
-input {
-    background: #93dcef;
-    border: none;
-    text-align: center;
-    border-radius: 25px;
-}
-
-
 img {
     width: 200px;
     display: flex;
@@ -79,6 +71,13 @@ img {
 }
 ul {
     list-style: none;
+}
+li {
+    background: #93dcef;
+    border: none;
+    border-radius: 25px;
+    display:inline-block;
+    padding: 2px 4px;
 }
 .beans {
     width: 33%;
