@@ -62,7 +62,12 @@ h2 {
     flex-wrap: wrap;
     list-style: none;
 }
-
+input {
+    background: #93dcef;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+}
 
 
 img {
@@ -114,4 +119,13 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+.bottom {
+    display: flex;
+    /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 33.333;
+    height: auto;
 }
