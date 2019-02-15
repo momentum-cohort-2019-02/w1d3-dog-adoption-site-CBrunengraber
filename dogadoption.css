@@ -72,3 +72,47 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
 }
+ul {
+    list-style: none;
+}
+.beans {
+    width: 33%;
+}
+.zelda {
+    width: 33%;
+}
+.baby {
+    width: 33%;
+}
+.tomtom {
+    width: 33%;
+}
+.marco {
+    width: 33%;
+}
+.shackleton {
+    width: 33%;
+}
+.midge {
+    width: 33%;
+}
+.ladybird {
+    width: 33%;
+}
+.mina {
+    width: 33%;
+}
+.donate {
+    width: 33%;
+}
+.voulnteer {
+    width: 33%;
+}
+.location {
+    width: 33%;
+    display: flex;
+    /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
