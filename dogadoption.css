@@ -107,6 +107,16 @@ ul {
 .mina {
     width: 33%;
 }
+
+.bottom {
+    display: flex;
+    /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 33.333;
+    height: auto;
+}
 .donate {
     width: 33%;
 }
@@ -119,13 +129,4 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-}
-.bottom {
-    display: flex;
-    /* or inline-flex */
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 33.333;
-    height: auto;
 }
